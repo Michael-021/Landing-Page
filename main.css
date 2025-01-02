@@ -16,6 +16,13 @@ h2 {
     font-weight: 900;
     color: #1f2937;
 }
+button {
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 4px 8px;
+    width: 100px;
+    font-size: 15px;
+}
 .hero-container, .header {
     background-color: #1f2937;
 }
@@ -46,6 +53,13 @@ h2 {
 .hero-content {
     max-width: 500px;
 }
+button.sign-up-1 {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: #E5E7EB;
+    font-weight: 600;
+    margin-top: 8px;
+}
 .hero-image {
     background-color: #f4f6f844;
     color: #E5E7EB;
@@ -60,6 +74,7 @@ h2 {
     padding: 0;
 }
 .hero-content p {
+    margin: 0;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -72,7 +87,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 20px;
+    padding: 20px 20px 100px ;
 }
 .info {
     display: flex;
@@ -91,6 +106,58 @@ h2 {
     text-align: center;
     padding-top: 4%;
 }
+.quote-sec {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;  
+    background-color: #E5E7EB;
+    height: 500px;
+}
+.quote-text {
+    max-width: 900px;
+    font-size: 36px;
+    text-align: left;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.author {
+    font-size: 14px;
+    
+}
+.callout-act {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    
+}
+.sign-sec{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    height: 50px;
+    width: 800px;
+    }
+    .sign-sec h4 {
+        margin: 0;
+        color: #E5E7EB;
+    }
+    .sign-sec p {
+        font-size: 14px;
+        margin: 0;
+        color: #E5E7EB;
+    }
+    button.sign-up-2 {
+        background-color: #3882F6;
+        color: #E5E7EB;
+        border: 2px solid #E5E7EB;
+        font-weight: 700;
+    }
 .footer {
     display: flex;
     align-items: center;
