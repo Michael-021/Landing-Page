@@ -40,11 +40,18 @@ button {
 }
 .header-logo {
     font-size: 24px;
-    color: #f9faf8;
     font-weight: 900;
 }
-.header-links {
+.header-logo a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+.header-links a {
     color: #E5E7EB;
+    text-decoration: none;
+}
+.header-links a:hover ,.header-links a:active {
+    color: #3882F6;
 }
 
 /* HERO STYLES */
